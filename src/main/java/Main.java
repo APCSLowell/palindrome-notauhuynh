@@ -5,8 +5,8 @@ public class Main {
 	public static void main(final String[] args) {
 		PalindromeChecker sim = new PalindromeChecker();
         	sim.tester();
-		String lines[] = loadStrings("palindromes.txt");
- 		 String present[] = loadStrings("palindromes.txt");
+		String lines[] = loadStrings("test, rotator, rewriter, nurses run, Madam, I'm Adam!, A Man! A Plan! A Canal! Panama!");
+ 		 String present[] = loadStrings("test, rotator, rewriter, nurses run, Madam, I'm Adam!, A Man! A Plan! A Canal! Panama!");
 		  System.out.println("there are " + lines.length + " lines");
   //System.out.println(noCapitals("ALLCAPS"));
   //System.out.println(noSpaces("S P A C E S"));
