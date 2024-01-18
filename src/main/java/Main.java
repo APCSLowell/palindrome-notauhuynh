@@ -8,9 +8,7 @@ public class Main {
 		String lines[] = "test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!";
  		 String present[] = "test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!";
 		  System.out.println("there are " + lines.length + " lines");
-  //System.out.println(noCapitals("ALLCAPS"));
-  //System.out.println(noSpaces("S P A C E S"));
-  //System.out.println(onlyLetters("!!!!!!!!!!!!a"));
+
   for (int i=0; i < lines.length; i++) 
   {
     lines[i] = noCapitals(lines[i]);
