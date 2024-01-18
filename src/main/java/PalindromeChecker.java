@@ -27,7 +27,7 @@ public void tester()
   {
     lines[i] = noCapitals(lines[i]);
     //System.out.println(lines[i]);
-    lines[i] =  noSpaces(lines[i]);
+    lines[i] = noSpaces(lines[i]);
     //System.out.println(lines[i]);
     lines[i] = onlyLetters(lines[i]);
     //System.out.println(lines[i]);
@@ -68,7 +68,6 @@ public static String noSpaces(String str){
   }
   return s;
 }
-
 public static int numLetters(String str){
   int count = 0;
   for(int i = 0; i < str.length(); i++){
