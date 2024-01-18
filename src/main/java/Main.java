@@ -5,8 +5,8 @@ public class Main {
 	public static void main(final String[] args) {
 		PalindromeChecker sim = new PalindromeChecker();
         	sim.tester();
-		String lines[] = "test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!";
- 		 String present[] = "test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!";
+		String lines[] = {"test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!"};
+ 		 String present[] = {"test", "rotator", "rewriter", "nurses run", "Madam, I'm Adam!", "A Man! A Plan! A Canal! Panama!"};
 		  System.out.println("there are " + lines.length + " lines");
 
   for (int i=0; i < lines.length; i++) 
